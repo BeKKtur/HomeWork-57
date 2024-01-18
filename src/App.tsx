@@ -19,7 +19,7 @@ function App() {
               <UserForm onSubmit={addUser}/>
           </div>
           <div>
-              <Users/>
+              <Users addUsers={users}/>
           </div>
       </main>
     </>
