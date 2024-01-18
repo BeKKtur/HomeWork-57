@@ -4,3 +4,35 @@
   padding: 2rem;
   text-align: center;
 }
+
+.main {
+  display: flex;
+  align-items: start;
+  gap: 60px;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.userItem {
+  margin: 10px;
+  text-align: left;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.userItem p{
+  margin: 1px;
+}
+
+.userItem h5 {
+  margin: 0;
+}
+
+.form {
+  text-align: left;
+}
+
+.button {
+  margin-top: 6px;
+}
